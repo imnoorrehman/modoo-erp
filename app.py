@@ -19,7 +19,7 @@ init_db()
 # ── LOGIN GATE ─────────────────────────────────────────────────────────────────
 if not st.session_state.get('logged_in'):
     st.markdown("""
-    <div style="min-height:100vh; display:flex; align-items:center; justify-content:center; flex-direction:column; padding:40px;">
+    <div style="min-height:100vh; display:flex; align-items:center; justify-content:center; flex-direction:column; padding:0px;">
         <div style="text-align:center; margin-bottom:32px;">
             <div style="font-size:48px; font-weight:800; color:#101828; letter-spacing:-2px; font-family:'Plus Jakarta Sans',sans-serif;">
                 Mo<span style="color:#875BF7;">Doo</span>
